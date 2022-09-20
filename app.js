@@ -6,3 +6,6 @@ app.listen(3000,()=>{
 app.get("/",(req,res)=>{
     res.sendFile("E:/Youssef/WEB/FullStackWithReactHongKong/conFusion/confusion/index.html")
 })
+app.get("/about",(req,res)=>{
+    res.sendFile("E:/Youssef/WEB/FullStackWithReactHongKong/conFusion/confusion/aboutus.html")
+})
